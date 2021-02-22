@@ -23,7 +23,9 @@
 2. 查看chrome浏览器的版本号，[点击这里下载][2]对应版本号的chromedriver驱动
 3. chrome浏览器对应版本的chromedriver下载至/usr/local/bin/目录下
 4. pip安装下列包
-    - [x] pip install selenium
+```python
+pip install selenium
+```
 
 [1]:https://www.google.com/chrome/
 [2]:http://chromedriver.storage.googleapis.com/index.html
