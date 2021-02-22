@@ -17,3 +17,13 @@
 <br />
 <br />
 
+## 使用说明
+部分代码使用selenium，需要结合对应chrome驱动器使用，本人使用mac操作系统，win或linux请查阅相关文档说明
+1. [点击这里下载][1]下载chrome浏览器
+2. 查看chrome浏览器的版本号，[点击这里下载][2]对应版本号的chromedriver驱动
+3. chrome浏览器对应版本的chromedriver下载至/usr/local/bin/目录下
+4. pip安装下列包
+    - [x] pip install selenium
+
+[1]:https://www.google.com/chrome/
+[2]:http://chromedriver.storage.googleapis.com/index.html
