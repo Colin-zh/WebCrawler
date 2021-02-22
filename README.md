@@ -10,3 +10,10 @@
     <a href="https://www.python.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" align="right" height="48" width="48" ></a>
 </p>
 <br />
+
+## 项目简介
+工作中常见的网站爬虫例子，代码通用性较高，时效性较久。尽量用简单的python代码，并配有大量注释。
+
+<br />
+<br />
+
