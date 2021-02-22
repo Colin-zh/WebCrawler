@@ -72,8 +72,8 @@ if __name__ == '__main__':
 
     # 数据整合
     # 去重，按key_words顺序保留不重复值
+    df.pkg_name = df.pkg_name.apply(lambda x : x.split('&info=')[0])
     df = df.drop_duplicates(['pkg_name'])
 
     # 指定路径生成xlsx文件
     df.to_excel(sys.path[0] + '/../result/' + output_tag + '.xlsx')
-    
