@@ -6,6 +6,18 @@
 ## 使用教程
 1. [点击这里下载][1]下载WebCrawler项目
 
+2. 确保以下库均安装
+    ```python
+	import sys
+	import json
+	import pandas as pd
+	import time
+	from bs4 import BeautifulSoup
+	from selenium import webdriver
+	from selenium.webdriver.support.ui import WebDriverWait
+	from selenium.webdriver.support import expected_conditions as EC
+    ```
+
 3. 配置 *01应用宝App信息/code/config.json* 文件形如：
     ```javascript
         {
