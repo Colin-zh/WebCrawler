@@ -27,6 +27,7 @@
 pip install selenium
 ```
 
+
 # [1. 应用宝APP信息爬取][yyb]
 
 ## 适用场景
@@ -67,6 +68,7 @@ pip install selenium
 
 5. 稍等 *key_words* 长度个弹窗后，检查 *01应用宝App信息/result/${output_tag}* 文件，格式为：
     ![](01应用宝App信息/images/output.png)
+
 
 # [2. 豌豆荚APP信息爬取][wdj]
 
