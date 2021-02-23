@@ -7,10 +7,10 @@
 ## 使用说明
 确保以下库均安装
     ```python
-        import base64
-        import re
-        from io import BytesIO
-        from fontTools.ttLib import TTFont 
+            import base64
+            import re
+            from io import BytesIO
+            from fontTools.ttLib import TTFont 
     ```
 
 ## 编码思路
