@@ -5,7 +5,7 @@
 ![](images/安居客加密数字样例.png)
 
 ## 使用说明
-确保以下库均安装
+确保以下库均已安装：
 
     ```python
             import base64
@@ -13,6 +13,7 @@
             from io import BytesIO
             from fontTools.ttLib import TTFont 
     ```
+
 
 ## 编码思路
 查看网页源代码后部分JavaScript中包含了解密钥匙，且加密方式为BASE64。
