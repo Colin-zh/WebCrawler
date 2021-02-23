@@ -6,6 +6,17 @@
 ## 使用教程
 1. [点击这里下载][1]下载WebCrawler项目
 
+2. 确保以下库均安装
+    ```python
+	import sys
+	import json
+	import pandas as pd
+	import random
+	import requests
+	import progressbar
+	from bs4 import BeautifulSoup
+    ```
+
 3. 配置 *02豌豆荚App信息/code/config.json* 文件形如：
     ```javascript
         {
