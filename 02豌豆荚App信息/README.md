@@ -32,7 +32,7 @@
     ```python
 	python3 WebCrawler/02豌豆荚App信息/code/main.py
     ```
-4. 过程演示图片
+4. 过程演示图片（若未显示，尝试使用代理后刷新页面）
     ![](images/豌豆荚爬虫演示.gif)
 
 5. 稍等 *key_words* 长度个弹窗后，检查 *02豌豆荚宝App信息/result/${output_tag}* 文件，格式为：
