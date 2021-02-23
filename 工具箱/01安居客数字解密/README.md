@@ -48,3 +48,11 @@
             return price
     ```
     
+## 举例
+1. 首先对 *sample/keys.txt* 使用 *get_keymap(html)* 获取keymap，得到 *keys* 形如：
+    
+    ```python
+        
+    ```
+        
+3. 最后对 *sample/secret_price.txt* 使用 *keymap_replace(price,keys) 得到最终解密结果为：
