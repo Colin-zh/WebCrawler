@@ -9,7 +9,7 @@
     ```javascript
         {
             "key_words":[
-                "王者荣耀","和平精英"
+                "王者荣耀","刺激战场"
             ],
             "output_tag":"tencent_games"
         }
@@ -20,7 +20,8 @@
 	python3 WebCrawler/01应用宝App信息/code/main.py
     ```
 4. 过程演示图片
-5. 稍等 *key_words* 长度个弹窗后，检查 *01应用宝App信息/result/${output_tag}* 文件，格式为：
+    ![](images/应用宝爬虫演示.gif)
+6. 稍等 *key_words* 长度个弹窗后，检查 *01应用宝App信息/result/${output_tag}* 文件，格式为：
     ![](images/output.png)
 
 [1]:https://github.com/Colin-zh/WebCrawler/archive/main.zip
