@@ -26,7 +26,7 @@ def get_request(url, anonymous = True):
     # 是否需要高匿ip代理，默认为True
     if anonymous:
         # 填写个人orderID
-        order = "037251ce5a8ffc4850afa65ceff0e751"
+        order = "****"
         # 动态api
         apiUrl = "http://dynamic.goubanjia.com/dynamic/get/" + order + ".html"
         # api调用无所谓headers
