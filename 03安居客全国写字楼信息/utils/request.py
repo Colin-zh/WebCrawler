@@ -41,12 +41,12 @@ def get_request(url, anonymous = True):
                 return r.text
             elif r.status_code == 200 and '验证' not in content:
                 return r.text
+            elif r.status_code == 404:
+                print("【WARN】：返回404，页面丢失")
+                return False
             else:
                 print("【验证】：触发访问验证，返回值为{}，url为{}，重新申请访问".format(r.status_code,url))
-                if str(r.status_code) != '404':
-                    return get_request(url, anonymous = True)
-                else:
-                    return False
+                return get_request(url, anonymous = True)
         except Exception as _:
             print("【警告】：当前ip访问超时，ip为{}，url为{}".format(ip,url))
             # 超时原因一般为ip响应过慢，重新调用代理api替换ip尝试即可
