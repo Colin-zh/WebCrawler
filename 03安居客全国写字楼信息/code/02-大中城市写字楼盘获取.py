@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import sys
+sys.path.append(sys.path[0]+'/..')
 import pandas as pd
 import re
 from bs4 import BeautifulSoup
-from ..utils.request import get_request
-from ..utils.digital_decryption import get_keymap,keymap_replace
-from ..utils.lbs_transfrom import lbsTransform
+from utils.request import get_request
+from utils.digital_decryption import get_keymap,keymap_replace
+from utils.lbs_transfrom import lbsTransform
 
 def getInfo(effective_cities_dct):
     # 初始化结果列表与字典长度
