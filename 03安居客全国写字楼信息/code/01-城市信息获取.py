@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import sys
+sys.path.append(sys.path[0]+'/..')
 import pandas as pd
 import progressbar
 import re
 from bs4 import BeautifulSoup
-from ..utils.request import get_request
+from utils.request import get_request
 
 # 验证城市办公楼盘获取有效性
 def validation(city_dct):
